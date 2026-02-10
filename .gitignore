@@ -1,0 +1,18 @@
+# Uploaded files (don't upload user photos to git)
+assets/uploads/candidates/*
+!assets/uploads/candidates/.gitkeep
+
+# Config file with sensitive data
+config/database.php
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
